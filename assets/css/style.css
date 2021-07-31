@@ -11,6 +11,18 @@
     max-width: 1440px;
 }
 
+.footer-container {
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+.cont-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
 .nav-a {
     text-decoration: none;
     font-family: Montserrat;
@@ -34,7 +46,7 @@ button {
     line-height: 36px;
     height: 68px;
     width: 236px;
-    padding: 16px 0px;
+    padding: 18px 0px;
 }
 
 .button-style-1 {
@@ -78,7 +90,7 @@ button {
     letter-spacing: 0.2px;
     color: #FFFFFF;
     margin: 10px auto;
-    max-width: 799px;
+    max-width: 800px;
 }
 
 .restapp_about {
@@ -91,4 +103,24 @@ button {
     letter-spacing: 0.2px;
     color: #F7F7F7;
     margin-bottom: 50px;
+}
+
+.order {
+    background-image: url("../img/Rectangle\ 47.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 147px 0 131px;
+}
+
+.order_title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
 }

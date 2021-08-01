@@ -1,7 +1,14 @@
+:root {
+    --primmary-title-color: #FA4A0C;
+    --second-title-color: #252B42;
+    --text-color: #737373;
+    --primari-size-font: 16px;
+}
+
 *{
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: var(--primari-size-font);
     font-weight: 400;
     box-sizing: border-box;
 }
@@ -129,7 +136,21 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*margin-top: 142px;*/
+    margin: 0 174px;
+    margin-top: 70px;
+    margin-bottom: 79px;
+}
+
+.mobile_title_head {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #000000;
+    margin-top: 56px;
 }
 
 .mobile_head {
